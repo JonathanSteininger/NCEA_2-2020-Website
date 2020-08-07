@@ -2,13 +2,13 @@
             var escape = false;
         function start(){
         
-            if(onetimeuse){
+            if(onetimeuse) {
         var canvas, canvasContext;
         
         var gamePause = false;
         var turnOn= true;
         
-        if(turnOn){
+        if(turnOn) {
             canvas = document.getElementById('gameCanvas');
             canvasContext = canvas.getContext('2d');
             
